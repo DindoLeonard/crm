@@ -307,22 +307,22 @@ export function XlsxReactDropzone({ groups }: { groups: SelectGroups[] }) {
               userId: string;
             };
 
-            // save to s3
+            // // save to s3
             const formattedFileName = formatFileNameWithTimestamp(file.name);
-            await fetch("/api/contacts/upload-contact-base64", {
-              method: "POST",
-              body: JSON.stringify({
-                data: {
-                  fileBase64: fileAsBase64,
-                  fileName: formattedFileName,
-                  folder: undefined // userId, can be undefined
-                }
-              }),
-              headers: {
-                "Content-Type": "application/json"
-              },
-              cache: "no-store"
-            });
+            // await fetch("/api/contacts/upload-contact-base64", {
+            //   method: "POST",
+            //   body: JSON.stringify({
+            //     data: {
+            //       fileBase64: fileAsBase64,
+            //       fileName: formattedFileName,
+            //       folder: undefined // userId, can be undefined
+            //     }
+            //   }),
+            //   headers: {
+            //     "Content-Type": "application/json"
+            //   },
+            //   cache: "no-store"
+            // });
 
             // update history
             const updateImportHistory: Partial<InsertImportHistory> = {
