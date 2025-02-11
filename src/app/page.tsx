@@ -53,7 +53,7 @@ export default async function HomePage() {
               CRM
             </h1>
             <span className="max-w-[750px] text-center text-lg font-light text-foreground">
-              bridgebooks
+              dndo-crm
             </span>
             <div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-6">
               <Button variant="default" asChild>

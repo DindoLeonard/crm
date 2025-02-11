@@ -34,7 +34,7 @@ export function Sidebar() {
             {/* <PanelsTopLeft className="w-6 h-6 mr-1" /> */}
             <Image
               src="/bridgebooks-icon.svg"
-              alt="bridgebooks"
+              alt="dndo-crm"
               width={40}
               height={40}
               priority
@@ -48,7 +48,7 @@ export function Sidebar() {
                   : "translate-x-0 opacity-100"
               )}
             >
-              Bridgebooks
+              dndo-crm
             </h1>
             {/* </div> */}
           </Link>

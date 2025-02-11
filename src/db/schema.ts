@@ -186,7 +186,7 @@ export const usersTable = pgTable("user", {
   phone: text("phone"),
   emailVerified: timestamp("emailVerified", { mode: "date" }),
   image: text("image"),
-  role: crmRolesEnum("role").default("viewer"),
+  role: crmRolesEnum("role").default("admin"),
   createdAt: timestamp("createdAt").defaultNow(),
   updatedAt: timestamp("updated_at", {
     mode: "date",

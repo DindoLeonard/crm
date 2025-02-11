@@ -17,24 +17,21 @@ export const metadata: Metadata = {
       ? `https://${process.env.VERCEL_URL}`
       : `http://localhost:${process.env.PORT || 3000}`
   ),
-  title: "bridgebooks",
-  description:
-    "Simple, exclusive and easy to use crm software for bridgebooks.",
+  title: "dndo-crm",
+  description: "Simple, exclusive and easy to use crm software for dndo-crm.",
   alternates: {
     canonical: "/"
   },
   openGraph: {
     url: "/",
-    title: "bridgebooks",
-    description:
-      "Simple, exclusive and easy to use crm software for bridgebooks.",
+    title: "dndo-crm",
+    description: "Simple, exclusive and easy to use crm software for dndo-crm.",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Simple, exclusive and easy to use crm software for bridgebooks.",
-    description:
-      "Simple, exclusive and easy to use crm software for bridgebooks."
+    title: "Simple, exclusive and easy to use crm software for dndo-crm.",
+    description: "Simple, exclusive and easy to use crm software for dndo-crm."
   }
 };
 

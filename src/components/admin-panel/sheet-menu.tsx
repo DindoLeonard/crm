@@ -30,13 +30,13 @@ export function SheetMenu() {
               {/* <PanelsTopLeft className="w-6 h-6 mr-1" /> */}
               <Image
                 src="/bridgebooks-icon.svg"
-                alt="bridgebooks"
+                alt="dndo-crm"
                 width={30}
                 height={30}
                 priority
               />
               <SheetTitle className="font-bold text-lg text-primary">
-                Bridgebooks
+                dndo-crm
               </SheetTitle>
             </Link>
           </Button>

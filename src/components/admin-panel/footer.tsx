@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-4 md:mx-8 flex h-14 items-center">
         {session ? (
           <p className="text-xs md:text-sm leading-loose text-muted-foreground text-left">
-            Bridgebooks admin panel - {`using as "${session?.user?.role}"`}
+            dndo-crm admin panel - {`using as "${session?.user?.role}"`}
             {/* Built on top of{" "}
           <Link
             href="https://ui.shadcn.com"

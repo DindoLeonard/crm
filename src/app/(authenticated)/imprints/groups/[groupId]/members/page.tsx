@@ -21,11 +21,9 @@ import { Separator } from "@/components/ui/separator";
 import { UserTable } from "@/features/groups/components/user-table";
 import { getUsers } from "@/features/users/data-access/users";
 
-export default async function GroupsMembersPage(
-  props: {
-    params: Promise<{ groupId: string }>;
-  }
-) {
+export default async function GroupsMembersPage(props: {
+  params: Promise<{ groupId: string }>;
+}) {
   const params = await props.params;
   const members = await getGroupsUsersByGroupId(params.groupId);
 
@@ -90,7 +88,7 @@ export default async function GroupsMembersPage(
       <p>Group Members</p>
       <UserTable users={members} groupId={params.groupId} hasRemoveFn />
       <Separator className="my-3" />
-      <p>Bridgebooks Users</p>
+      <p>dndo-crm Users</p>
       <UserTable users={usersNotInGroup} groupId={params.groupId} hasAssignFn />
     </ContentLayout>
   );
