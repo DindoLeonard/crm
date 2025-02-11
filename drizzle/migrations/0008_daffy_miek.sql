@@ -1,0 +1,1 @@
+ALTER TYPE "lead_status_enum" ADD VALUE 'charge_back';

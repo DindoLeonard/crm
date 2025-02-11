@@ -1,0 +1,97 @@
+{
+  "version": "0",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1727885521007,
+      "tag": "0000_tiresome_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1728265376156,
+      "tag": "0001_neat_calypso",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1728467123475,
+      "tag": "0002_hot_proemial_gods",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1728467738266,
+      "tag": "0003_shallow_franklin_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1729090484269,
+      "tag": "0004_dapper_greymalkin",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1729228922425,
+      "tag": "0005_warm_gargoyle",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1729238820088,
+      "tag": "0006_moaning_genesis",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1729239024401,
+      "tag": "0007_keen_the_stranger",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1730697295525,
+      "tag": "0008_daffy_miek",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1731491758970,
+      "tag": "0009_noisy_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1733458121555,
+      "tag": "0010_wise_mojo",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1736693189748,
+      "tag": "0011_old_iron_fist",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1736739233391,
+      "tag": "0012_lying_thunderbolt_ross",
+      "breakpoints": true
+    }
+  ]
+}

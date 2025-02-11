@@ -1,0 +1,1 @@
+ALTER TABLE "import_history" ADD COLUMN "updated_at" timestamp (3);
